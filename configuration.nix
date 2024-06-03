@@ -111,6 +111,9 @@
 	jetbrains.rider
 	dotnet-sdk
 	vscodium
+	vscode
+	dotnet-sdk_8
+	nodejs
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
