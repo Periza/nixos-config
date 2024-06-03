@@ -115,6 +115,7 @@
 	vscode
 	dotnet-sdk_8
 	nodejs
+        vim
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
