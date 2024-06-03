@@ -110,7 +110,7 @@
 	xclip
 	jetbrains.rider
 	dotnet-sdk
-	vscodium
+	curl
 	vscode
 	dotnet-sdk_8
 	nodejs
