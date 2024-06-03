@@ -108,6 +108,9 @@
 	htop
 	git
 	xclip
+	jetbrains.rider
+	dotnet-sdk
+	vscodium
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
