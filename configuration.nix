@@ -84,7 +84,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.markop = {
     isNormalUser = true;
-    description = "Marko PErica";
+    description = "Marko Perica";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       kdePackages.kate
@@ -94,6 +94,7 @@
 
   # Install firefox.
   programs.firefox.enable = true;
+  # Install steam.
   programs.steam.enable = true;
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
