@@ -118,6 +118,7 @@
 	telegram-desktop
 	discord
 	postman
+	thunderbird
   ];
   
   virtualisation.docker.enable = true;
