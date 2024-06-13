@@ -119,6 +119,7 @@
 	discord
 	postman
 	thunderbird
+	libreoffice-qt
   ];
   
   virtualisation.docker.enable = true;
