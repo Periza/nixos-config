@@ -120,6 +120,7 @@
 	postman
 	thunderbird
 	libreoffice-qt
+	qbittorrent
   ];
   
   virtualisation.docker.enable = true;
