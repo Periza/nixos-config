@@ -121,6 +121,8 @@
 	thunderbird
 	libreoffice-qt
 	qbittorrent
+	pgadmin4
+	shortwave
   ];
   
   virtualisation.docker.enable = true;
