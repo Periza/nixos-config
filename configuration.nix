@@ -123,6 +123,8 @@
 	qbittorrent
 	pgadmin4
 	shortwave
+	skypeforlinux
+	vscode
   ];
   
   virtualisation.docker.enable = true;
