@@ -125,6 +125,7 @@
 	shortwave
 	skypeforlinux
 	vscode
+	flameshot
   ];
   
   virtualisation.docker.enable = true;
