@@ -126,6 +126,7 @@
 	skypeforlinux
 	vscode
 	flameshot
+	freerdp
   ];
   
   virtualisation.docker.enable = true;
