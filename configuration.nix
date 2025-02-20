@@ -127,6 +127,7 @@
 	vscode
 	flameshot
 	freerdp
+	gcc
   ];
   
   virtualisation.docker.enable = true;
