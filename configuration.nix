@@ -129,6 +129,7 @@
 	freerdp
 	gcc
 	cmake
+	runc
   ];
   
   virtualisation.docker.enable = true;
