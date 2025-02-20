@@ -128,6 +128,7 @@
 	flameshot
 	freerdp
 	gcc
+	cmake
   ];
   
   virtualisation.docker.enable = true;
