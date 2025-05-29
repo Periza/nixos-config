@@ -85,12 +85,14 @@
   users.users.markop = {
     isNormalUser = true;
     description = "Marko Perica";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "adbusers" "docker" ];
     packages = with pkgs; [
       kdePackages.kate
     #  thunderbird
     ];
   };
+  # Install adb
+  programs.adb.enable = true;
 
   # Install firefox.
   programs.firefox.enable = true;
@@ -120,7 +122,6 @@
 	postman
 	thunderbird
 	libreoffice-qt
-	qbittorrent
 	pgadmin4
 	shortwave
 	skypeforlinux
@@ -130,6 +131,8 @@
 	gcc
 	cmake
 	runc
+	monero-gui
+	nodePackages.typescript
   ];
   
   virtualisation.docker.enable = true;
