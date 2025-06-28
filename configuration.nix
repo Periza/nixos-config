@@ -133,6 +133,7 @@
 	runc
 	monero-gui
 	nodePackages.typescript
+	filezilla
   ];
   
   virtualisation.docker.enable = true;
